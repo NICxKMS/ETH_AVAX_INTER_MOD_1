@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
+// Author : Nikhil
+
 contract GameToken {
     string public name = "GameToken";
     mapping (address => uint256) public balances;
